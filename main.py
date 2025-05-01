@@ -6,7 +6,7 @@ st.set_page_config(page_title="Mind Support Bot", page_icon="🧠")
 st.title("🧠 Mind Support Chatbot")
 st.write("I'm here to talk. Tell me how you're feeling 💬")
 
-API_KEY = "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"  # Set in secrets.toml or manually below
+API_KEY = "paste ur key"  # api key paste here https://openrouter.ai/
 if not API_KEY:
     API_KEY = st.text_input("Paste your OpenRouter API Key", type="password")
 
