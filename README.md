@@ -33,8 +33,16 @@ This project is a simple, web-based mental health chatbot built using Python, St
    API_KEY = "your_openrouter_api_key"
 
    OR enter your API key in the app when prompted.
+   
+   to get the key
+   Go to https://openrouter.ai/
+   singup and go to the keys
+   Create a key 
+   Copy and paste on main.py
+   this is how the key looks like 
+   OPENROUTER_API_KEY = "sk-or-v1-006580c2fa723570ef42bfae656e106847fb73268f419ff0f6796aea"
 
-3. Run the chatbot:
+4. Run the chatbot:
    streamlit run main.py
 
 -------------
